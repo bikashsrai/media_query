@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  color: white;
+  font-size: 10px;
+  /* font-size: 62.5%;  */
+
+  text-align: center;
+  padding-top: 100px;
+}
+h2 {
+  display: none;
+}
+/* smartphones */
+@media (max-width: 500px) {
+  body {
+    background-color: pink;
+  }
+  #smartphone h2 {
+    display: block;
+  }
+}
+/* tablets */
+@media (min-width: 501px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  #tablet h2 {
+    display: block;
+  }
+}
+/* normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+  #normal h2 {
+    display: block;
+  }
+}
+/* widescreen  */
+@media (min-width: 1201px) {
+  body {
+    background-color: bisque;
+  }
+  h2 {
+    display: block;
+  }
+}
+/* landscape */
+/* @media (max-height: 500px) {
+  body {
+    background: black;
+  }
+  #widescreen h2 {
+    display: block;
+  }
+} */
